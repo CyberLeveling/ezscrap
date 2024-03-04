@@ -16,7 +16,7 @@ import (
 
 
 func main() {
-		go spinner(100 * time.Millisecond)
+	go spinner(100 * time.Millisecond)
         // Open the input file
         inputFile, err := os.Open("input.txt")
         if err != nil {
